@@ -23,7 +23,7 @@ export default function Supporters() {
   return (
     <section className="bg-black text-white py-20">
       <div className="max-w-4xl mx-auto px-4 text-center">
-        <h2 className="text-[35px] font-normal mb-12 tracking-[0.1%] border border-amber-300 sm:text-center md:text-center">Supporters & Partners</h2>
+        <h2 className="text-[35px] font-normal mb-12 tracking-[0.1%]  sm:text-center md:text-center">Supporters & Partners</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
           {logos.map((logo, index) => (
             <div
